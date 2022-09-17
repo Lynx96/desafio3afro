@@ -1,0 +1,14 @@
+@import '../styles/colors.scss';
+
+.header{
+    background-color: $green-300;
+    height: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        width: 8.75rem
+    }
+    
+}
