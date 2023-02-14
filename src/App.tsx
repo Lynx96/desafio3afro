@@ -150,7 +150,7 @@ function App() {
 
 							<div className={styles.addTaskDeadline}>
 								<input
-									type="text"
+									type="date"
 									onChange={handleChangeDeadlineEdited}
 									value={taskDeadlineEdited}
 								/>
@@ -179,7 +179,7 @@ function App() {
 							/>
 							<div className={styles.addTaskDeadline}>
 								<input
-									type="text"
+									type="date"
 									value={taskDeadline}
 									placeholder="Insira a data limite para a atividade"
 									onChange={handleChangeDeadline}

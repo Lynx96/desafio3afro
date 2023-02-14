@@ -36,11 +36,11 @@ export function Task({
 		
 
 
-	/* function formatDate() {
+	 function formatDate() {
 		if (deadline !== "") {
 			return format(parseISO(deadline), "dd/MM/yyyy")
 		}
-	} */
+	} 
 
 	const todayDate = () => {
 		if (isDone) {
@@ -84,7 +84,7 @@ export function Task({
 				{deadline !== "" && (
 					<span>
 						<CalendarBlank size={25} />
-						<p>Até {deadline}</p>
+						<p>Até {formatDate()}</p>
 					</span>
 				)}
 			</div>
